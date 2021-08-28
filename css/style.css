@@ -1,0 +1,188 @@
+/* GOOGLE FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+/* CSS */
+/* Default Colours */
+/* Default Font */
+body {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+/* Default Section */
+.section {
+  padding: 2rem 0 4rem;
+}
+.section h2 {
+  font-size: 1.25rem;
+}
+
+/* Body */
+body {
+  background-color: #01091f;
+}
+
+/* Nav */
+.nav {
+  position: relative;
+  overflow: hidden;
+}
+
+.nav-item {
+  float: left;
+}
+.nav-item a {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.nav-item a:hover:not(.active) {
+  background-color: #e5e5e5;
+  color: #fca311;
+}
+
+.logo {
+  text-decoration: none;
+}
+.logo a {
+  font-size: 1.5rem;
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 14px 16px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.float-right {
+  float: right;
+}
+
+.active {
+  background-color: #ffffff;
+  opacity: 0.4;
+}
+.active a {
+  color: #01091f;
+}
+
+/* Home Section */
+/* Home Main Section*/
+.main-home {
+  align-items: center;
+  height: 100vh;
+  display: block;
+  text-align: center;
+}
+.main-home h1 {
+  font-size: 4rem;
+  padding-bottom: 20px;
+}
+.main-home h2 {
+  font-size: 3rem;
+  color: #e5e5e5;
+}
+
+.vertical-center {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Home About Section */
+.about-home {
+  height: 100vh;
+}
+
+.foreground-text {
+  position: relative;
+  height: 100px;
+}
+
+.background-text {
+  font-size: 8em;
+  color: #e5e5e5;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 2;
+  z-index: -1;
+  line-height: 0.4em;
+}
+
+.foreground-text p {
+  padding-left: 30%;
+  padding-right: 2%;
+  font-size: 3em;
+  float: right;
+  text-align: right;
+}
+
+.about-slide-right .background-text {
+  animation: 3s about-slide-right 3s forwards;
+  transform: translateX(-100%);
+}
+
+@keyframes about-slide-right {
+  to {
+    transform: translateX(0);
+  }
+}
+/* Home Work Section */
+.work-home {
+  height: 100vh;
+}
+
+.work-slide-right .background-text {
+  animation: 3s work-slide-right 6s forwards;
+  transform: translateX(-100%);
+}
+
+@keyframes work-slide-right {
+  to {
+    transform: translateX(0);
+  }
+}
+/* Home Skills Section */
+.skill-home {
+  height: 100vh;
+}
+
+.skill-slide-right .background-text {
+  animation: 3s skill-slide-right 9s forwards;
+  transform: translateX(-100%);
+}
+
+@keyframes skill-slide-right {
+  to {
+    transform: translateX(0);
+  }
+}
+/* Home Contact Section */
+.contact-home {
+  height: 100vh;
+}
+
+.contact-slide-right .background-text {
+  animation: 3s contact-slide-right 12s forwards;
+  transform: translateX(-100%);
+}
+
+@keyframes contact-slide-right {
+  to {
+    transform: translateX(0);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
