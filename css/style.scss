@@ -143,7 +143,7 @@ body {
   }
   
   .about-slide-right .background-text {
-    animation: 2.5s about-slide-right 3s forwards;
+    animation: 3s about-slide-right 3s forwards;
       transform:translateX(-100%);
   }
   
@@ -160,7 +160,7 @@ body {
   }
 
   .work-slide-right .background-text {
-    animation: 2.5s work-slide-right 6s forwards;
+    animation: 3s work-slide-right 6s forwards;
       transform:translateX(-100%);
   }
   
@@ -170,6 +170,17 @@ body {
     }
   }
 
+  .blob {
+    width: 400px;
+    float: left;
+    position:absolute;
+  }
+
+  .blob-image {
+    width: 330px;
+  }
+
+
   /* Home Skills Section */
 
   .skill-home {
@@ -177,7 +188,7 @@ body {
   }
 
   .skill-slide-right .background-text {
-    animation: 2.5s skill-slide-right 9s forwards;
+    animation: 3s skill-slide-right 9s forwards;
       transform:translateX(-100%);
   }
   
@@ -194,7 +205,7 @@ body {
   }
 
   .contact-slide-right .background-text {
-    animation: 2.5s contact-slide-right 12s forwards;
+    animation: 3s contact-slide-right 12s forwards;
       transform:translateX(-100%);
   }
   
@@ -202,4 +213,96 @@ body {
     to {
       transform:translateX(0);
     }
+  }
+
+  /* Social media footer */
+
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 600px;
+    background-image: linear-gradient(to bottom right, rgba($primary-colour,1),rgba($second-accent-colour,1));
+    transition: all .4s ease-out;
+    .links {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 70%;
+    }
+  }
+  
+  .social-link {
+  
+    &.linkedin {
+      color: #2d76b0;
+    }
+  
+    &.github {
+      color: #000;
+    }
+  
+    &.instagram {
+      color: #9a2970;
+    }
+  
+    &.twitter {
+      color: #55acee;
+    }
+  
+    .social-svg {
+      width: 6rem;
+      height: 6rem;
+  
+      .social-group {
+  
+        .icon {
+          fill: $primary-colour;
+          transition: all .2s;
+        }
+  
+        .inner-circle {
+          fill: transparent;
+          transition: all .2s;
+        }
+  
+        .outline {
+          stroke: $primary-colour;
+          transform-origin: 50% 50%;
+          transition: all .2s;
+        }
+    
+    }
+  
+    &:hover, &:active, &:focus {
+  
+       .social-group {
+  
+        .icon {
+          fill: $secondary-colour;
+          transition: all .45s;
+        }
+  
+        .inner-circle {
+          fill: currentColor;
+          transition: all .45s;
+  
+          .instagram {
+            fill: url(#simpleInsta) !important;
+          }
+  
+        }
+  
+        .outline {
+          stroke: currentColor;
+          transform: scale(1.1);
+          transition: all .45s;
+        }
+  
+      } 
+  
+    }
+  
+    }
+  
   }

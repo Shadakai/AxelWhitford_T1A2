@@ -154,6 +154,16 @@ body {
     transform: translateX(0);
   }
 }
+.blob {
+  width: 400px;
+  float: left;
+  position: absolute;
+}
+
+.blob-image {
+  width: 330px;
+}
+
 /* Home Skills Section */
 .skill-home {
   height: 100vh;
@@ -183,6 +193,67 @@ body {
   to {
     transform: translateX(0);
   }
+}
+/* Social media footer */
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 600px;
+  background-image: linear-gradient(to bottom right, #01091f, #14213d);
+  transition: all 0.4s ease-out;
+}
+.footer .links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+}
+
+.social-link.linkedin {
+  color: #2d76b0;
+}
+.social-link.github {
+  color: #000;
+}
+.social-link.instagram {
+  color: #9a2970;
+}
+.social-link.twitter {
+  color: #55acee;
+}
+.social-link .social-svg {
+  width: 6rem;
+  height: 6rem;
+}
+.social-link .social-svg .social-group .icon {
+  fill: #01091f;
+  transition: all 0.2s;
+}
+.social-link .social-svg .social-group .inner-circle {
+  fill: transparent;
+  transition: all 0.2s;
+}
+.social-link .social-svg .social-group .outline {
+  stroke: #01091f;
+  transform-origin: 50% 50%;
+  transition: all 0.2s;
+}
+.social-link .social-svg:hover .social-group .icon, .social-link .social-svg:active .social-group .icon, .social-link .social-svg:focus .social-group .icon {
+  fill: #ffffff;
+  transition: all 0.45s;
+}
+.social-link .social-svg:hover .social-group .inner-circle, .social-link .social-svg:active .social-group .inner-circle, .social-link .social-svg:focus .social-group .inner-circle {
+  fill: currentColor;
+  transition: all 0.45s;
+}
+.social-link .social-svg:hover .social-group .inner-circle .instagram, .social-link .social-svg:active .social-group .inner-circle .instagram, .social-link .social-svg:focus .social-group .inner-circle .instagram {
+  fill: url(#simpleInsta) !important;
+}
+.social-link .social-svg:hover .social-group .outline, .social-link .social-svg:active .social-group .outline, .social-link .social-svg:focus .social-group .outline {
+  stroke: currentColor;
+  transform: scale(1.1);
+  transition: all 0.45s;
 }
 
 /*# sourceMappingURL=style.css.map */
