@@ -403,7 +403,74 @@ body {
       font-size: 3em;
       font-family: 'Rock Salt' ,cursive;
     }
-   
+    .container {
+      width: auto;
+      padding: 25px 30px;
+      position: relative;
+      .title {
+        font-size: 25px;
+        font-weight: 500;
+      }
+    }
+  }
+
+  .container form .user-details {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap:20px;
+    justify-content: space-between;
+  }
+
+  forn .user-details .input-box {
+    margin: 20px 0 12px 0;
+  }
+
+  .user-details .input-box input {
+    height: 40px;
+    width: 100%;
+    outline-color: none ;
+    border-radius: 5px;
+    border: 1px solid $secondary-colour-dark;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width:2px;
+    transition: all 0.3s ease;
+  }
+
+  .user-details .input-box input:focus,
+  .user-details .input-box input:valid {
+    border-color:$accent-colour;
+  }
+
+  .user-details .input-box .details{
+    display: block;
+    text-align: left;
+    padding: 0 12px 12px 0;
+    color: $accent-colour;
+    font-weight: 500;
+  }
+
+  form .button {
+    height: 45px;
+    margin: 45px;
+  }
+
+  form .button input {
+    height: 100%;
+    width: 90%;
+    outline: none;
+    color: $secondary-colour;
+    background: $accent-colour;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 5px;
+  }
+
+  form .button input:hover {
+    color: $accent-colour;
+    background: $secondary-colour;
   }
     
 
