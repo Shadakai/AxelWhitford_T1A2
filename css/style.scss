@@ -94,11 +94,12 @@ body {
       text-align: center;
       h1 {
         font-size: 4rem;
+        font-family: 'Rock Salt', cursive;
         padding-bottom: 20px;
       }
       h2 {
         font-size: 3rem;
-        color: $secondary-colour-dark;
+        color: $accent-colour;
       }
   }
 
@@ -177,7 +178,7 @@ body {
   }
 
   .blob-image {
-    width: 330px;
+    width: 450px;
   }
 
 
@@ -215,6 +216,201 @@ body {
     }
   }
 
+  /* About Section */
+
+  .about {
+    
+    .wrapper-1 {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      padding-bottom: 10px;
+    }
+    .wrapper-2 {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      padding-top: 10px;
+    }
+    .wrapper-3 {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      padding-top: 10px;
+    }
+  }
+
+  #title {
+    padding: 5em;
+    text-align: center;
+    h1 {
+      font-size: 3em;
+      font-family: 'Rock Salt' ,cursive;
+      color: $accent-colour;
+    }
+  }
+
+  #chapter-1 {
+    padding: 5rem;
+    h2 {
+      padding-bottom: 10px;
+      font-size: 3em;
+    }
+    p {
+      font-size: 2.5em;
+    }
+  }
+
+  #profile-image {
+      margin: 20px;
+    .image-of-axel{
+      border-radius: 20px;
+      box-shadow: 1px 1px 5px 1px white;
+      width: 100%;
+      height: auto;
+    }   
+  }
+
+  #chapter-2 {
+    padding: 5rem;
+    h2 {
+      padding-bottom: 10px;
+      font-size: 3em;
+    }
+    p {
+      font-size: 2.5em;
+    }
+  }
+
+  #fun-image {
+    margin: 20px;
+    .image-of-workspace {
+      border-radius: 20px;
+      box-shadow: 1px 1px 5px 1px white;
+      width: 100%;
+      height: auto;
+    }   
+  }
+
+  #chapter-3 {
+    padding: 5rem;
+    h2 {
+      padding-bottom: 10px;
+      font-size: 3em;
+    }
+    p {
+      font-size: 2.5em;
+      padding-bottom: 20px;
+    }
+    .btn {
+      background-color:$secondary-colour;
+      color: $primary-colour;
+      border-radius: 20px;
+      padding: 7px;
+      text-decoration: none;
+    }
+  }
+
+  #work-image {
+    margin: 20px;
+    .image-of-work {
+      border-radius: 20px;
+      box-shadow: 1px 1px 5px 1px white;
+      width: 100%;
+      height: auto;
+    }   
+  }
+
+
+  .break{
+    height: 100vh;
+  width: 100vw;
+  background: var(--bg);
+  display: flex;
+  place-content: center;
+  align-items: flex-end;
+  overflow: hidden;
+  }
+
+  .container  {
+    width: 80vw;
+    height: 80vh;
+    
+    svg {
+      height: 100%;
+      width: 100%;
+      overflow: visible;
+    }
+  }
+  
+  #bongo-cat {
+    fill: var(--bg);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 4;
+    
+    .laptop-cover,
+    .headphone .band {
+      fill: none;
+    }
+    
+    .paw, .head {
+      stroke: #ffcc81;
+    }
+    
+    .laptop-keyboard {
+      stroke-width: 2;
+    }
+    
+    .terminal-code {
+      stroke-width: 5;  
+    }
+    
+    .music .note, 
+    .laptop-base, 
+    .laptop-cover,
+    .paw .pads {
+      stroke: #ff61d8;   
+    }
+    
+    .table line,
+    .headphone .band,
+    .headphone .speaker path:nth-child(3) {
+      stroke: #a5ea9b;
+    }
+  
+    .terminal-frame,
+    .laptop-keyboard,
+    .headphone .speaker path:nth-child(2) {
+      stroke: #569cfa;
+    }
+    
+    .terminal-code,
+    .headphone .speaker path:first-child {
+      stroke: #7ed1e2;
+    }
+  }
+
+
+  /* Contact Section */
+
+  .contact-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    h1 {
+      font-size: 3em;
+      font-family: 'Rock Salt' ,cursive;
+    }
+   
+  }
+    
+
+  
+
+  /* Portfolio Section */
+
   /* Social media footer */
 
   .footer {
@@ -222,7 +418,7 @@ body {
     justify-content: space-around;
     align-items: center;
     height: 600px;
-    background-image: linear-gradient(to bottom right, rgba($primary-colour,1),rgba($second-accent-colour,1));
+    background-image: linear-gradient(to top, rgba($accent-colour,1),rgba($primary-colour,1));
     transition: all .4s ease-out;
     .links {
       display: flex;
@@ -296,7 +492,7 @@ body {
         .outline {
           stroke: currentColor;
           transform: scale(1.1);
-          transition: all .45s;
+          transition: all 1s;
         }
   
       } 
@@ -305,4 +501,17 @@ body {
   
     }
   
+  }
+
+  .copy-right {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-name {
+    padding: 20px 10px 50px 10px;
+  }
+
+  .copy-right-footer {
+    padding:20px 10px 50px 10px;
   }

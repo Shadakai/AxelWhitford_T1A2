@@ -83,11 +83,12 @@ body {
 }
 .main-home h1 {
   font-size: 4rem;
+  font-family: "Rock Salt", cursive;
   padding-bottom: 20px;
 }
 .main-home h2 {
   font-size: 3rem;
-  color: #e5e5e5;
+  color: #fca311;
 }
 
 .vertical-center {
@@ -161,7 +162,7 @@ body {
 }
 
 .blob-image {
-  width: 330px;
+  width: 450px;
 }
 
 /* Home Skills Section */
@@ -194,13 +195,187 @@ body {
     transform: translateX(0);
   }
 }
+/* About Section */
+.about .wrapper-1 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding-bottom: 10px;
+}
+.about .wrapper-2 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding-top: 10px;
+}
+.about .wrapper-3 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding-top: 10px;
+}
+
+#title {
+  padding: 5em;
+  text-align: center;
+}
+#title h1 {
+  font-size: 3em;
+  font-family: "Rock Salt", cursive;
+  color: #fca311;
+}
+
+#chapter-1 {
+  padding: 5rem;
+}
+#chapter-1 h2 {
+  padding-bottom: 10px;
+  font-size: 3em;
+}
+#chapter-1 p {
+  font-size: 2.5em;
+}
+
+#profile-image {
+  margin: 20px;
+}
+#profile-image .image-of-axel {
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px 1px white;
+  width: 100%;
+  height: auto;
+}
+
+#chapter-2 {
+  padding: 5rem;
+}
+#chapter-2 h2 {
+  padding-bottom: 10px;
+  font-size: 3em;
+}
+#chapter-2 p {
+  font-size: 2.5em;
+}
+
+#fun-image {
+  margin: 20px;
+}
+#fun-image .image-of-workspace {
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px 1px white;
+  width: 100%;
+  height: auto;
+}
+
+#chapter-3 {
+  padding: 5rem;
+}
+#chapter-3 h2 {
+  padding-bottom: 10px;
+  font-size: 3em;
+}
+#chapter-3 p {
+  font-size: 2.5em;
+  padding-bottom: 20px;
+}
+#chapter-3 .btn {
+  background-color: #ffffff;
+  color: #01091f;
+  border-radius: 20px;
+  padding: 7px;
+  text-decoration: none;
+}
+
+#work-image {
+  margin: 20px;
+}
+#work-image .image-of-work {
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px 1px white;
+  width: 100%;
+  height: auto;
+}
+
+.break {
+  height: 100vh;
+  width: 100vw;
+  background: var(--bg);
+  display: flex;
+  place-content: center;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+.container {
+  width: 80vw;
+  height: 80vh;
+}
+.container svg {
+  height: 100%;
+  width: 100%;
+  overflow: visible;
+}
+
+#bongo-cat {
+  fill: var(--bg);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 4;
+}
+#bongo-cat .laptop-cover,
+#bongo-cat .headphone .band {
+  fill: none;
+}
+#bongo-cat .paw, #bongo-cat .head {
+  stroke: #ffcc81;
+}
+#bongo-cat .laptop-keyboard {
+  stroke-width: 2;
+}
+#bongo-cat .terminal-code {
+  stroke-width: 5;
+}
+#bongo-cat .music .note,
+#bongo-cat .laptop-base,
+#bongo-cat .laptop-cover,
+#bongo-cat .paw .pads {
+  stroke: #ff61d8;
+}
+#bongo-cat .table line,
+#bongo-cat .headphone .band,
+#bongo-cat .headphone .speaker path:nth-child(3) {
+  stroke: #a5ea9b;
+}
+#bongo-cat .terminal-frame,
+#bongo-cat .laptop-keyboard,
+#bongo-cat .headphone .speaker path:nth-child(2) {
+  stroke: #569cfa;
+}
+#bongo-cat .terminal-code,
+#bongo-cat .headphone .speaker path:first-child {
+  stroke: #7ed1e2;
+}
+
+/* Contact Section */
+.contact-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+.contact-section h1 {
+  font-size: 3em;
+  font-family: "Rock Salt", cursive;
+}
+
+/* Portfolio Section */
 /* Social media footer */
 .footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 600px;
-  background-image: linear-gradient(to bottom right, #01091f, #14213d);
+  background-image: linear-gradient(to top, #fca311, #01091f);
   transition: all 0.4s ease-out;
 }
 .footer .links {
@@ -253,7 +428,20 @@ body {
 .social-link .social-svg:hover .social-group .outline, .social-link .social-svg:active .social-group .outline, .social-link .social-svg:focus .social-group .outline {
   stroke: currentColor;
   transform: scale(1.1);
-  transition: all 0.45s;
+  transition: all 1s;
+}
+
+.copy-right {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-name {
+  padding: 20px 10px 50px 10px;
+}
+
+.copy-right-footer {
+  padding: 20px 10px 50px 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
