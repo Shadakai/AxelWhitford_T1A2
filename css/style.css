@@ -1,5 +1,6 @@
 /* GOOGLE FONTS */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
 /* CSS */
 /* Default Colours */
 /* Default Font */
@@ -17,6 +18,7 @@ h1 {
 .section {
   padding: 2rem 0 4rem;
 }
+
 .section h2 {
   font-size: 1.25rem;
 }
@@ -35,6 +37,7 @@ body {
 .nav-item {
   float: left;
 }
+
 .nav-item a {
   display: block;
   color: #ffffff;
@@ -42,6 +45,7 @@ body {
   padding: 14px 16px;
   text-decoration: none;
 }
+
 .nav-item a:hover:not(.active) {
   background-color: #e5e5e5;
   color: #fca311;
@@ -50,6 +54,7 @@ body {
 .logo {
   text-decoration: none;
 }
+
 .logo a {
   font-size: 1.5rem;
   float: none;
@@ -70,6 +75,7 @@ body {
   background-color: #ffffff;
   opacity: 0.4;
 }
+
 .active a {
   color: #01091f;
 }
@@ -82,11 +88,13 @@ body {
   display: block;
   text-align: center;
 }
+
 .main-home h1 {
   font-size: 4rem;
   font-family: "Rock Salt", cursive;
   padding-bottom: 20px;
 }
+
 .main-home h2 {
   font-size: 3rem;
   color: #fca311;
@@ -110,6 +118,7 @@ body {
   color: #01091f;
   border-radius: 25px;
 }
+
 .projects-button :hover {
   background: #ffffff;
   color: #fca311;
@@ -156,6 +165,7 @@ body {
     transform: translateX(0);
   }
 }
+
 /* Home Work Section */
 .work-home {
   height: 100vh;
@@ -171,6 +181,7 @@ body {
     transform: translateX(0);
   }
 }
+
 .blob {
   width: 400px;
   float: left;
@@ -196,6 +207,7 @@ body {
     transform: translateX(0);
   }
 }
+
 /* Home Contact Section */
 .contact-home {
   height: 100vh;
@@ -211,6 +223,7 @@ body {
     transform: translateX(0);
   }
 }
+
 .contact-button {
   font-size: 1.5em;
   font-family: "Rock Salt", cursive;
@@ -221,6 +234,7 @@ body {
   color: #fca311;
   border-radius: 25px;
 }
+
 .contact-button :hover {
   color: #ffffff;
 }
@@ -232,11 +246,13 @@ body {
   grid-template-columns: 1fr 2fr;
   padding-bottom: 10px;
 }
+
 .about .wrapper-2 {
   display: grid;
   grid-template-columns: 2fr 1fr;
   padding-top: 10px;
 }
+
 .about .wrapper-3 {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -247,6 +263,7 @@ body {
   padding: 5em;
   text-align: center;
 }
+
 #title h1 {
   font-size: 3em;
   font-family: "Rock Salt", cursive;
@@ -256,10 +273,12 @@ body {
 #chapter-1 {
   padding: 5rem;
 }
+
 #chapter-1 h2 {
   padding-bottom: 10px;
   font-size: 3em;
 }
+
 #chapter-1 p {
   font-size: 2.5em;
 }
@@ -267,6 +286,7 @@ body {
 #profile-image {
   margin: 20px;
 }
+
 #profile-image .image-of-axel {
   border-radius: 20px;
   box-shadow: 1px 1px 5px 1px white;
@@ -277,10 +297,12 @@ body {
 #chapter-2 {
   padding: 5rem;
 }
+
 #chapter-2 h2 {
   padding-bottom: 10px;
   font-size: 3em;
 }
+
 #chapter-2 p {
   font-size: 2.5em;
 }
@@ -288,6 +310,7 @@ body {
 #fun-image {
   margin: 20px;
 }
+
 #fun-image .image-of-workspace {
   border-radius: 20px;
   box-shadow: 1px 1px 5px 1px white;
@@ -298,14 +321,17 @@ body {
 #chapter-3 {
   padding: 5rem;
 }
+
 #chapter-3 h2 {
   padding-bottom: 10px;
   font-size: 3em;
 }
+
 #chapter-3 p {
   font-size: 2.5em;
   padding-bottom: 20px;
 }
+
 #chapter-3 .btn {
   background-color: #ffffff;
   color: #01091f;
@@ -317,6 +343,7 @@ body {
 #work-image {
   margin: 20px;
 }
+
 #work-image .image-of-work {
   border-radius: 20px;
   box-shadow: 1px 1px 5px 1px white;
@@ -338,6 +365,7 @@ body {
   width: 80vw;
   height: 80vh;
 }
+
 .container svg {
   height: 100%;
   width: 100%;
@@ -350,35 +378,44 @@ body {
   stroke-linejoin: round;
   stroke-width: 4;
 }
+
 #bongo-cat .laptop-cover,
 #bongo-cat .headphone .band {
   fill: none;
 }
-#bongo-cat .paw, #bongo-cat .head {
+
+#bongo-cat .paw,
+#bongo-cat .head {
   stroke: #ffcc81;
 }
+
 #bongo-cat .laptop-keyboard {
   stroke-width: 2;
 }
+
 #bongo-cat .terminal-code {
   stroke-width: 5;
 }
+
 #bongo-cat .music .note,
 #bongo-cat .laptop-base,
 #bongo-cat .laptop-cover,
 #bongo-cat .paw .pads {
   stroke: #ff61d8;
 }
+
 #bongo-cat .table line,
 #bongo-cat .headphone .band,
 #bongo-cat .headphone .speaker path:nth-child(3) {
   stroke: #a5ea9b;
 }
+
 #bongo-cat .terminal-frame,
 #bongo-cat .laptop-keyboard,
 #bongo-cat .headphone .speaker path:nth-child(2) {
   stroke: #569cfa;
 }
+
 #bongo-cat .terminal-code,
 #bongo-cat .headphone .speaker path:first-child {
   stroke: #7ed1e2;
@@ -395,15 +432,18 @@ body {
   text-align: center;
   padding: 10px;
 }
+
 .contact-section h1 {
   font-size: 3em;
   font-family: "Rock Salt", cursive;
 }
+
 .contact-section .container {
   width: auto;
   padding: 25px 30px;
   position: relative;
 }
+
 .contact-section .container .title {
   font-size: 25px;
   font-weight: 500;
@@ -478,6 +518,7 @@ form .button input:hover {
   align-items: center;
   width: auto;
 }
+
 .portfolio-section h1 {
   font-size: 3em;
   font-family: "Rock Salt", cursive;
@@ -501,7 +542,8 @@ form .button input:hover {
 }
 
 /* Portfolio Cards */
-.card, .blog-card {
+.card,
+.blog-card {
   animation: glow 1.5s infinite alternate;
   border-radius: 15px;
   margin: 25px;
@@ -509,28 +551,38 @@ form .button input:hover {
   min-width: 250px;
   overflow: hidden;
 }
-.card :hover .drop-down-window, .blog-card :hover .drop-down-window {
+
+.card :hover .drop-down-window,
+.blog-card :hover .drop-down-window {
   transform: translateX(0);
   opacity: 1;
 }
-.card :hover .img, .blog-card :hover .img {
+
+.card :hover .img,
+.blog-card :hover .img {
   filter: blur(1.5px);
   transform: scale(1);
 }
+
 @keyframes glow {
   from {
     box-shadow: 0 0 5px #fca311;
   }
+
   to {
     box-shadow: 0 0 30px #fca311;
   }
 }
-.card .img-cont, .blog-card .img-cont {
+
+.card .img-cont,
+.blog-card .img-cont {
   overflow: hidden;
   position: relative;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
 }
-.card .img-cont span, .blog-card .img-cont span {
+
+.card .img-cont span,
+.blog-card .img-cont span {
   position: absolute;
   top: 0;
   right: 0;
@@ -549,22 +601,30 @@ form .button input:hover {
   transition: transform 0.3s ease-out, opacity 0.5s ease-out;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
 }
-.card .img-cont img, .blog-card .img-cont img {
+
+.card .img-cont img,
+.blog-card .img-cont img {
   z-index: 0;
   width: 100%;
   transform: scale(1.2);
   transition: all 0.3s;
 }
-.card .content-cont, .blog-card .content-cont {
+
+.card .content-cont,
+.blog-card .content-cont {
   padding: 20px;
   display: grid;
   height: auto;
   grid-template-columns: 1fr;
 }
-.card .content-cont span, .blog-card .content-cont span {
+
+.card .content-cont span,
+.blog-card .content-cont span {
   display: block;
 }
-.card .content-cont .card-header, .blog-card .content-cont .card-header {
+
+.card .content-cont .card-header,
+.blog-card .content-cont .card-header {
   text-transform: uppercase;
   font-weight: bold;
   padding-bottom: 10px;
@@ -574,14 +634,17 @@ form .button input:hover {
 .blog-card {
   animation: softglow 1.5s infinite alternate;
 }
+
 .blog-card a {
   text-decoration: none;
   color: #ffffff;
 }
+
 @keyframes softglow {
   from {
     box-shadow: 0 0 5px #e5e5e5;
   }
+
   to {
     box-shadow: 0 0 30px #ffffff;
   }
@@ -597,6 +660,7 @@ form .button input:hover {
   background-image: linear-gradient(to top, #fca311, #01091f);
   transition: all 0.4s ease-out;
 }
+
 .footer .links {
   display: flex;
   justify-content: space-between;
@@ -607,44 +671,63 @@ form .button input:hover {
 .social-link.linkedin {
   color: #2d76b0;
 }
+
 .social-link.github {
   color: #000;
 }
+
 .social-link.instagram {
   color: #9a2970;
 }
+
 .social-link.twitter {
   color: #55acee;
 }
+
 .social-link .social-svg {
   width: 6rem;
   height: 6rem;
 }
+
 .social-link .social-svg .social-group .icon {
   fill: #01091f;
   transition: all 0.2s;
 }
+
 .social-link .social-svg .social-group .inner-circle {
   fill: transparent;
   transition: all 0.2s;
 }
+
 .social-link .social-svg .social-group .outline {
   stroke: #01091f;
   transform-origin: 50% 50%;
   transition: all 0.2s;
 }
-.social-link .social-svg:hover .social-group .icon, .social-link .social-svg:active .social-group .icon, .social-link .social-svg:focus .social-group .icon {
+
+.social-link .social-svg:hover .social-group .icon,
+.social-link .social-svg:active .social-group .icon,
+.social-link .social-svg:focus .social-group .icon {
   fill: #ffffff;
   transition: all 0.45s;
 }
-.social-link .social-svg:hover .social-group .inner-circle, .social-link .social-svg:active .social-group .inner-circle, .social-link .social-svg:focus .social-group .inner-circle {
+
+.social-link .social-svg:hover .social-group .inner-circle,
+.social-link .social-svg:active .social-group .inner-circle,
+.social-link .social-svg:focus .social-group .inner-circle {
   fill: currentColor;
   transition: all 0.45s;
 }
-.social-link .social-svg:hover .social-group .inner-circle .instagram, .social-link .social-svg:active .social-group .inner-circle .instagram, .social-link .social-svg:focus .social-group .inner-circle .instagram {
+
+.social-link .social-svg:hover .social-group .inner-circle .instagram,
+.social-link .social-svg:active .social-group .inner-circle .instagram,
+.social-link .social-svg:focus .social-group .inner-circle .instagram {
   fill: url(#simpleInsta) !important;
 }
-.social-link .social-svg:hover .social-group .outline, .social-link .social-svg:active .social-group .outline, .social-link .social-svg:focus .social-group .outline {
+
+.social-link .social-svg:hover .social-group .outline,
+.social-link .social-svg:active .social-group .outline,
+.social-link .social-svg:focus .social-group .outline {
   stroke: currentColor;
   transform: scale(1.1);
   transition: all 1s;
